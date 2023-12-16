@@ -1,0 +1,94 @@
+﻿Relatório Semestral de Atividades PDV
+Período: 16/09/2023 a 16/12/2023
+
+O projeto PDV (Ponto de Venda) tem como objetivo criar um sistema de ponto de venda eletrônico para otimizar a eficiência e gestão das transações comerciais. Abaixo estão as principais tecnologias utilizadas e atividades realizadas durante o período mencionado:
+Tecnologias Utilizadas:
+Back-End:
+    • Insomnia: Ferramenta de teste de API para depurar os endpoints do projeto.
+    • Node.js e TypeScript (TSC): Desenvolvimento do backend em Node.js com TypeScript para adicionar tipagem estática ao JavaScript.
+    • MySQL: Sistema de gerenciamento de banco de dados para armazenar dados relacionados às transações comerciais.
+    • Framework NestJS e TypeScript: Utilização do framework NestJS em conjunto com TypeScript para criar uma estrutura robusta e escalável para o backend.
+    • Prisma: Ferramenta ORM para interação com bancos de dados relacionais.
+
+Front-End:
+    • Next.js: Framework React utilizado para construir aplicações web modernas e eficientes.
+    • TypeScript: Linguagem de programação de código aberto para adicionar tipos estáticos ao JavaScript.
+    • Styled Components: Biblioteca para estilizar componentes em aplicações React.
+
+Execução Local:
+    1. Back-End:
+        ◦ Clone o projeto: git clone https://github.com/fabrica-bayarea/pdv-back.git
+        ◦ Entre na branch develop
+        ◦ Instale as dependências: npm install e npm prisma migrate
+        ◦ Inicie a aplicação: npm run start
+    2. Front-End:
+        ◦ Clone o projeto: git clone https://github.com/fabrica-bayarea/pdv-front.git
+        ◦ Entre na branch develop
+        ◦ Instale as dependências: npm install 
+        ◦ Inicie a aplicação: npm run dev
+Atividades Realizadas:
+
+Durante o decorrer do projeto, uma série de atividades foram realizadas para implementar funcionalidades essenciais e desenvolver as telas necessárias para o sistema. 
+Abaixo, detalhamos as principais realizações em duas categorias: Implementação do Banco de Dados e Desenvolvimento das Telas.
+Implementação do Banco de Dados:
+Tabelas Criadas:
+    • Usuario, Cliente, Fornecedor, Categoria, Produto, Vendedor, NotaFiscal, ContagemMensal, NotaFiscalEntrada, ProdutoSolicitacao, RegistroProduto, SolicitacaoCompra, Role, Item, FichaTecnica, Finalizador.
+Desenvolvimento das Telas:
+Tela de Login:
+    • Uma tela de autenticação foi implementada para controlar o acesso ao sistema. Essa funcionalidade fornece uma camada de segurança essencial para proteger dados sensíveis e garantir que apenas usuários autorizados possam interagir com o sistema.
+
+Telas de Cadastro:
+      
+    • Cadastro de Produtos: Permite a inclusão de novos produtos no sistema, fornecendo informações detalhadas, como nome, descrição, e categoria.
+    • Cadastro de Clientes: Facilita o registro e gerenciamento de informações dos clientes, incluindo dados pessoais e histórico de transações.
+    • Cadastro de Vendedores: Permite a adição e manutenção de registros relacionados aos vendedores do sistema.
+    • Cadastro de Finalizadores: Gerencia dados dos responsáveis pela finalização das transações no sistema.
+    • Cadastro de Fornecedores: Registra informações sobre os fornecedores, incluindo detalhes de contato e produtos fornecidos.
+    • Cadastro de Notas Fiscais: Permite o registro de notas fiscais emitidas ou recebidas no sistema.
+Operações:
+    • Registro de Vendas: Implementação de funcionalidade para registrar vendas, incluindo produtos vendidos, clientes envolvidos, e outras informações relevantes.
+    • Cupom de Vendas: Implementação de funcionalidade para registrar vendas, incluindo produtos vendidos, clientes envolvidos, o total da compra e outras informações relevantes.
+Menu Gerencial:
+    • Clientes: Apresenta uma visão gerencial dos clientes cadastrados no sistema, permitindo a busca, edição e exclusão de registros.
+    • Vendedores: Apresenta uma visão gerencial dos vendedores cadastrados no sistema, permitindo a busca, edição e exclusão de registros.
+    • Fornecedores: Apresenta uma visão gerencial dos fornecedores cadastrados no sistema, permitindo a busca, edição e exclusão de registros.
+    • Finalizadores: Apresenta uma visão gerencial dos finalizadores cadastrados no sistema, permitindo a busca, edição e exclusão de registros.
+    • Notas Fiscais: Apresenta uma visão gerencial das notas cadastradas no sistema, permitindo a busca, edição e exclusão de registros.
+    • Produtos: Apresenta uma visão gerencial das notas cadastradas no sistema, permitindo a busca, edição e exclusão de registros.
+
+Desenvolvimento do BackEnd
+
+No âmbito do Desenvolvimento BackEnd, gostaria de informar que as seguintes funcionalidades foram devidamente implementadas e estão operacionais:
+    • Auth: Autenticação foi incorporada com sucesso para garantir a segurança e controle de acesso.
+    • Categoria: A gestão de categorias foi implementada, proporcionando uma organização eficiente dos itens.
+    • Cliente: A funcionalidade relacionada aos clientes foi desenvolvida e está em pleno funcionamento.
+    • Contagem Mensal: Foi implantado um sistema de contagem mensal para facilitar o acompanhamento e análise de dados.
+    • Finalizador: O módulo Finalizador foi implementado, proporcionando uma conclusão eficiente de processos.
+    • Fornecedor: A gestão de fornecedores foi integrada ao sistema para uma administração eficaz dos parceiros de negócios.
+    • Items: O controle de itens foi implementado, permitindo uma gestão detalhada dos produtos disponíveis.
+    • Nota Fiscal: A funcionalidade de Nota Fiscal foi incorporada para uma gestão transparente das transações.
+    • Produto: A gestão de produtos foi desenvolvida e está em pleno funcionamento.
+    • Produto Solicitação: A integração entre produtos e solicitações foi realizada para uma interação eficiente.
+    • Solicitação de Compra: Foi implementada a funcionalidade de Solicitação de Compra, facilitando o processo de aquisição.
+    • Usuário e Vendedor: O sistema de usuários, incluindo vendedores, foi desenvolvido e está operacional, garantindo uma administração adequada.
+
+Este relatório destaca as principais atividades realizadas durante o projeto, abrangendo desde a implementação do banco de dados até o desenvolvimento das telas necessárias para o funcionamento do sistema. Se houver necessidade de mais detalhes ou informações específicas, favor entrar em contato.
+Equipe 1º/2023
+Equipe: Backend:
+• André Cordeiro Ignacio  https://github.com/AndreCordeir0
+• Gabriel Vieira Cavalcante  https://github.com/elrate
+• Beatryz Kleuvyn Silva Arruda  https://github.com/kleuvyn
+Frontend:
+• Davi Marques Costa  https://github.com/davimcostaa
+• Amanda Vieira Peres  https://github.com/imxamanda
+Requisitos/Testes:
+• Marco Antonio Rabelo Sales  https://github.com/Marcoarsales
+• Gracielly dos Santos Ribeiro  https://github.com/GraciellySRibeiro
+
+Observações:
+    • Carrinho de Compras: A funcionalidade do carrinho de compras ainda não foi implementada. Precisamos priorizar essa integração para aprimorar a experiência do usuário durante o processo de compra.
+    • Mensagens de Erro: As mensagens de erro atuais precisam de melhorias. Trabalhar em uma comunicação mais clara e informativa pode contribuir significativamente para a usabilidade do sistema.
+    • Atualização de Nota Fiscal de Entrada e Ficha Técnica: As atualizações nos campos relacionados à Nota Fiscal de Entrada e Ficha Técnica foram realizadas de forma incorreta de acordo com o Figma desatualizado. Devemos ajustar essas implementações, alinhando-as ao design final proposto no Figma, que está pronto para ser atualizado e finalizado.
+    • Botão de Logout: O botão de logout está localizado em "Gerenciamentos". Precisamos movê-lo para uma posição mais apropriada, garantindo uma navegação mais intuitiva para os usuários.
+
+
