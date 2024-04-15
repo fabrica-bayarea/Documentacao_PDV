@@ -62,6 +62,6 @@ O projeto PDV visa otimizar a eficiência e gestão de transações comerciais p
 
 
 # Link Figma
-### Versão https://www.figma.com/file/xT45yDGk9xpkhD069jY39f/pdv?type=design&node-id=0-1&mode=design
-### Versão https://www.figma.com/file/iUszS01TjiNA9YIlDjpM2U/Untitled-(Copy)?type=design&node-id=0-1&mode=design&t=MFPFiOoKfAHgvCG0-0
+### Versão 1 https://www.figma.com/file/xT45yDGk9xpkhD069jY39f/pdv?type=design&node-id=0-1&mode=design
+### Versão 2 https://www.figma.com/file/iUszS01TjiNA9YIlDjpM2U/Untitled-(Copy)?type=design&node-id=0-1&mode=design&t=MFPFiOoKfAHgvCG0-0
 
