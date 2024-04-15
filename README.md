@@ -1,7 +1,6 @@
 # Projeto PDV (Ponto de Venda)
 
-## Período do Projeto: 16/09/2023 a 16/12/2023
-
+## Período do Projeto: 16/09/2023 - EM ANDAMENTO
 Este repositório é dedicado ao projeto PDV (Ponto de Venda). O projeto tem como objetivo criar um sistema de ponto de venda eletrônico para aprimorar a eficiência e gestão de transações comerciais. Aqui, você encontrará toda a documentação relacionada ao projeto PDV.
 
 ## Visão Geral
@@ -24,7 +23,7 @@ O projeto PDV visa otimizar a eficiência e gestão de transações comerciais p
 - **TypeScript**: Linguagem de programação de código aberto para adicionar tipos estáticos ao JavaScript.
 - **Styled Components**: Biblioteca para estilizar componentes em aplicações React.
 
-## Equipe (1o/2023)
+## Equipe (1°/2023)
 
 ### Backend
 
@@ -42,6 +41,27 @@ O projeto PDV visa otimizar a eficiência e gestão de transações comerciais p
 - [**Marco Antonio Rabelo Sales**](https://github.com/Marcoarsales)
 - [**Gracielly dos Santos Ribeiro**](https://github.com/GraciellySRibeiro)
 
+## Equipe (1°/2024)
+
+
+### Líderes
+- Líder: Beatryz 
+- SubLider: Istefani
+- Líder Front: Matheus 
+- Líder Back:
+
+### Backend
+- Gabriel Vieira Cavalcante
+- Beatryz Kleuvyn Silva Arruda
+- Istefani frança costa
+- Jean Lucas Oliveira Damaceno
+
+### Frontend
+- Matheus Guilherme da Fonseca Iizuka
+- Rodrigo Sousa Nery
+
+
 # Link Figma
-## https://www.figma.com/file/xT45yDGk9xpkhD069jY39f/pdv?type=design&node-id=0-1&mode=design
+### Versão https://www.figma.com/file/xT45yDGk9xpkhD069jY39f/pdv?type=design&node-id=0-1&mode=design
+### Versão https://www.figma.com/file/iUszS01TjiNA9YIlDjpM2U/Untitled-(Copy)?type=design&node-id=0-1&mode=design&t=MFPFiOoKfAHgvCG0-0
 
