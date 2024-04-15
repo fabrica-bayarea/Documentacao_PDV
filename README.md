@@ -23,6 +23,85 @@ O projeto PDV visa otimizar a eficiência e gestão de transações comerciais p
 - **TypeScript**: Linguagem de programação de código aberto para adicionar tipos estáticos ao JavaScript.
 - **Styled Components**: Biblioteca para estilizar componentes em aplicações React.
 
+# Executando o Projeto
+
+Para começar, instale no seu ambiente de desenvolvimento:
+- Node.js: [Instalação do Node.js](https://nodejs.org/)
+
+### Execução Local:
+1. Back-End:
+```bash
+Clone o projeto: git clone https://github.com/fabrica-bayarea/pdv-back.git
+Entre na branch develop
+Instale as dependências: npm install
+```
+
+## Baixando o Docker
+### Para Linux:
+- Abra o terminal.
+- Execute os seguintes comandos para instalar o Docker:
+```bash
+$ sudo apt update
+$ $udo apt install docker.io
+```
+Após a instalação, inicie o serviço do Docker:
+```bash
+$ sudo systemctl start docker
+```
+Verifique se o Docker foi instalado corretamente:
+```bash
+$ docker –version
+```
+## Para Windows:
+
+#### Acesse o site oficial do Docker (https://www.docker.com/) e baixe o instalador para
+Windows.
+Siga as instruções do instalador para concluir a instalação.
+Após a instalação, abra o Docker Desktop e aguarde até que o Docker esteja pronto para
+uso.
+
+### Instalando a extensão do VS Code para Docker
+- Abra o VS Code
+- Vá para a seção de extensões clicando no ícone de quadrados no canto esquerdo da barra lateral ou
+pressionando Ctrl + Shift + X.
+- No campo de pesquisa, digite "Docker".
+- A extensão oficial do Docker será exibida. Clique em "Install" (Instalar) para instalá-la.
+
+## Rodando o projeto com Docker
+- Abra o terminal VS Code Ctrl + J (esse comando e pra rodar a primeira vez)
+```bash
+docker-compose up --build -d
+```
+
+- entre em na extenção do Docker aperte como botão direito em mysql  e aperte Attach Shell
+```bash
+npx prisma migrate dev --name migracao
+```
+
+- quando for abrir na maquina novamente para rodar faça
+```bash
+docker-compose up -d
+```
+2. Front-End:
+     
+```bash
+Clone o projeto: git clone https://github.com/fabrica-bayarea/pdv-front.git
+Entre na branch develop
+Instale as dependências: npm install
+```
+
+### Rodando o projeto com Docker
+- Abra o terminal VS Code Ctrl + J (esse comando e pra rodar a primeira vez)
+
+```bash
+docker-compose up --build -d
+```
+
+- quando for abrir na maquina novamente para rodar faça
+```bash
+docker-compose up -d
+```
+
 ## Equipe (1°/2023)
 
 ### Backend
