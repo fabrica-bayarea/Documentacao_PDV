@@ -1,3 +1,5 @@
+![Centro Universitário IESB](public/logoIesb.png)
+
 # Projeto PDV (Ponto de Venda)
 
 ## Período do Projeto: 16/09/2023 - EM ANDAMENTO
@@ -25,18 +27,7 @@ O projeto PDV visa otimizar a eficiência e gestão de transações comerciais p
 
 # Executando o Projeto
 
-Para começar, instale no seu ambiente de desenvolvimento:
-- Node.js: [Instalação do Node.js](https://nodejs.org/)
-
-### Execução Local:
-1. Back-End:
-```bash
-Clone o projeto: git clone https://github.com/fabrica-bayarea/pdv-back.git
-Entre na branch develop
-Instale as dependências: npm install
-```
-
-## Baixando o Docker
+## Instalação do Docker
 ### Para Linux:
 - Abra o terminal.
 - Execute os seguintes comandos para instalar o Docker:
@@ -68,26 +59,30 @@ pressionando Ctrl + Shift + X.
 - A extensão oficial do Docker será exibida. Clique em "Install" (Instalar) para instalá-la.
 
 ## Rodando o projeto com Docker
+
+1. Back-End:
+```bash
+Clone o projeto: git clone https://github.com/fabrica-bayarea/pdv-back.git
+Entre na branch develop
+```
 - Abra o terminal VS Code Ctrl + J (esse comando e pra rodar a primeira vez)
 ```bash
 docker-compose up --build -d
 ```
-
 - entre em na extenção do Docker aperte como botão direito em mysql  e aperte Attach Shell
 ```bash
 npx prisma migrate dev --name migracao
 ```
-
 - quando for abrir na maquina novamente para rodar faça
 ```bash
 docker-compose up -d
 ```
+
 2. Front-End:
      
 ```bash
 Clone o projeto: git clone https://github.com/fabrica-bayarea/pdv-front.git
 Entre na branch develop
-Instale as dependências: npm install
 ```
 
 ### Rodando o projeto com Docker
@@ -101,6 +96,7 @@ docker-compose up --build -d
 ```bash
 docker-compose up -d
 ```
+
 
 ## Equipe (1°/2023)
 
@@ -122,25 +118,18 @@ docker-compose up -d
 
 ## Equipe (1°/2024)
 
-
 ### Líderes
 - Líder: Beatryz 
-- SubLider: Istefani
 - Líder Front: Matheus 
-- Líder Back:
 
 ### Backend
-- Gabriel Vieira Cavalcante
-- Beatryz Kleuvyn Silva Arruda
-- Istefani frança costa
-- Jean Lucas Oliveira Damaceno
+- [**Gabriel Vieira Cavalcante**](https://github.com/elrate)
+- [**Beatryz Kleuvyn Silva Arruda**](https://github.com/kleuvyn)
 
 ### Frontend
-- Matheus Guilherme da Fonseca Iizuka
-- Rodrigo Sousa Nery
-
+- [**Matheus Guilherme da Fonseca Iizuka**](https://github.com/MatheusFonseca849)
+- [**Eduardo Luís Gonçalves de Azevedo**](https://github.com/EduardoLGAz)
 
 # Link Figma
-### Versão 1 https://www.figma.com/file/xT45yDGk9xpkhD069jY39f/pdv?type=design&node-id=0-1&mode=design
-### Versão 2 https://www.figma.com/file/iUszS01TjiNA9YIlDjpM2U/Untitled-(Copy)?type=design&node-id=0-1&mode=design&t=MFPFiOoKfAHgvCG0-0
-
+### [**Versão 1**](https://www.figma.com/file/xT45yDGk9xpkhD069jY39f/pdv?type=design&node-id=0-1&mode=design)
+### [**Versão 2**](https://www.figma.com/file/iUszS01TjiNA9YIlDjpM2U/Untitled-(Copy)?type=design&node-id=0-1&mode=design&t=MFPFiOoKfAHgvCG0-0)
