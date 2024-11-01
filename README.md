@@ -133,6 +133,7 @@ docker-compose up -d
 # Link Figma
 ### [**Versão 1**](https://www.figma.com/file/xT45yDGk9xpkhD069jY39f/pdv?type=design&node-id=0-1&mode=design)
 ### [**Versão 2**](https://www.figma.com/file/iUszS01TjiNA9YIlDjpM2U/Untitled-(Copy)?type=design&node-id=0-1&mode=design&t=MFPFiOoKfAHgvCG0-0)
+### [**Tela de Vendas - Protótipo**](https://www.figma.com/design/lTLxGm9CXQHPDI3Qz1lyji/Prototipa%C3%A7%C3%A3o-tela-de-vendas?node-id=0-1&t=zILMV5wI8zVpIW3U-1)
 
 ###  Kit Cursos/Treinamentos
 
